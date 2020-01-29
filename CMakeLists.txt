@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(manipulation_context_slam_msgs)
+project(image_detection_msgs)
 
 
 find_package(catkin REQUIRED COMPONENTS
