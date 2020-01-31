@@ -14,8 +14,10 @@ add_message_files(
   DetectionBoxesList.msg
   SemanticDetectionMat.msg
   DetectionMetaData.msg
+  DetectionPoses.msg
 )
+
 
 generate_messages(DEPENDENCIES std_msgs sensor_msgs)
 
-catkin_package(CATKIN_DEPENDS message_runtime std_msgs sensor_msgs)
+catkin_package(CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs)
